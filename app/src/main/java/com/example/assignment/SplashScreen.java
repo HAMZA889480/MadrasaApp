@@ -18,6 +18,9 @@ public class SplashScreen extends AppCompatActivity {
         }
 
 
+
+
+
         Intent iHome =new Intent(SplashScreen.this, MainActivity.class);
         new Handler().postDelayed(new Runnable() {
             @Override
