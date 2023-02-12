@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_text"
+        android:text="Add User"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="120dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/FName_text"
+        android:textSize="24dp"
+        android:layout_below="@+id/add_text"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/FirstName"
+        android:inputType="textPersonName"
+        android:layout_below="@id/FName_text"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/LName_text"
+        android:textSize="24dp"
+        android:layout_below="@+id/FirstName"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/LastName"
+        android:inputType="textPersonName"
+        android:layout_below="@id/LName_text"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@+id/LastName"
+        android:textSize="24dp"
+        android:id="@+id/add_btn"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+
+
+
+</RelativeLayout>
